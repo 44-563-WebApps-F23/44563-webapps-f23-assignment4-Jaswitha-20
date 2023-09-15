@@ -1,0 +1,26 @@
+
+.Speech{
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: black;
+}
+
+.direction{
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+color: black;
+background-color: beige;
+}
+
+.direction:hover{
+    background-color: darkkhaki;
+    color:indigo;
+}
+
+.BRACK{
+    color: chocolate;
+}
+
+.HEBBA{
+    color: chocolate;
+}
