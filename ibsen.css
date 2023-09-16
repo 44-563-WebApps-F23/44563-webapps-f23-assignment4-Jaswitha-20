@@ -14,13 +14,34 @@ background-color: beige;
 
 .direction:hover{
     background-color: darkkhaki;
-    color:indigo;
+    color:rgb(0, 130, 0);
 }
 
 .BRACK{
     color: chocolate;
 }
 
-.HEBBA{
-    color: chocolate;
+.HEDDA{
+    color: rgb(198, 119, 228);
 }
+
+.table{
+    width: 50%;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+
+.table td, .table th{
+    border: solid 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+.table th{
+    background-color: bisque;
+}
+
+.table tr:nth-child(even){
+    background-color: beige;
+}
+
