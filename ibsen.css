@@ -21,11 +21,19 @@ background-color: beige;
     color: chocolate;
 }
 
+.BRACK:hover{
+    box-shadow: 3px 3px 6px #80c0e8;
+    border-style:outset;
+}
 
 .HEDDA{
     color: rgb(198, 119, 228);
 }
 
+.HEDDA:hover{
+    box-shadow: 3px 3px 6px #cf3697;
+    border-style:dotted;
+}
 
 
 .table{
