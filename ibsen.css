@@ -12,6 +12,10 @@ color: black;
 background-color: beige;
 }
 
+.name{
+
+}
+
 .direction:hover{
     background-color: darkkhaki;
     color:rgb(0, 130, 0);
@@ -24,6 +28,7 @@ background-color: beige;
 .BRACK:hover{
     box-shadow: 3px 3px 6px #80c0e8;
     border-style:outset;
+    filter: blur(0.5px);
 }
 
 .HEDDA{
@@ -33,26 +38,43 @@ background-color: beige;
 .HEDDA:hover{
     box-shadow: 3px 3px 6px #cf3697;
     border-style:dotted;
+    filter: blur(0.5px);
 }
 
 
 .table{
-    width: 50%;
-    margin-bottom: 25px;
+    width: 30%;
+    margin-bottom: 15px;
     border-collapse: collapse;
 }
 
-.table td, .table th{
-    border: solid 1px;
+.table th, .table td{
+    border:  1px solid;
     text-align: center;
     padding: 10px;
 }
 
 .table th{
     background-color: bisque;
+    color: blueviolet;
 }
 
 .table tr:nth-child(even){
     background-color: beige;
+   
 }
 
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    ul.navbar-horizontal li {
+    float:left; 
+    color:#c1c662;
+    background-color:rgb(182, 179, 203)
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:10px
+    }
